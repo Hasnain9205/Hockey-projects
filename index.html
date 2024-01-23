@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey web design</title>
-    <!-- tailwind and daisyui linki -->
+    <!-- tailwind and daisyui link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <!-- manrope font family link -->
@@ -12,6 +12,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
   </style>
+  <!-- font awasome link -->
+  <script src="https://kit.fontawesome.com/bc44b60b71.js" crossorigin="anonymous"></script>
+
   <style>
     .font{
         font-family: 'Manrope', sans-serif;
@@ -45,14 +48,15 @@
            <a href="">Contact</a>
              
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end gap-6">
+              <i class="fa-solid fa-magnifying-glass"></i>
                 <button class="btn btn-active btn-secondary bg-[#FF4240]">Get Ticket</button>
             </div>
           </div>
 
     </nav>
 
-    <div class="carousel w-full lg:h-[450px] lg:mt-14">
+    <div class="carousel w-full lg:h-[450px] lg:mt-14 relative">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="./Images/1.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -76,13 +80,110 @@
         </div> 
        
         </div>
-        <div>
-        <h2 class="text-2xl font-extrabold">Meet all the heroes from the field</h2>
+        <div class="p-4 lg:p-8 bg-[#131318] text-white lg:w-[500px] h-[150px] space-y-2 rounded-2xl absolute lg:top-[420px] lg:right-40">
+        <h2 class=" text-xl lg:text-2xl font-extrabold text-white">Meet all the heroes from the field</h2>
+        <p class="text-base font-medium text-gray-500">The finalists for field hockey player of the year are Jhankar mahbub,Hasnain,Ferdus ahmed</p>
         </div>
       </div>
+      <hr class="border-dashed border-2 mt-20 text-gray-500">
 </header>
 <main class="max-w-5xl m-auto">
 
+  <!-- Professional hockey section -->
+
+<section>
+    <div class="text-center mt-12 space-y-4">
+        <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
+        <p class="text-base font-medium text-gray-500">Professional ice hockey (hockey) is the competition of ice hockey in which participants are paid to pay. <br> Professional competition began in North America in the United States—in <br> Pennsylvania and Michigan—and in Canada around 1900.</p>
+    </div>
+    <hr class="border-dashed border-2 mt-8 text-gray-500">
+    <div class=" text-center mt-20 flex">
+      <div class=" space-y-4">
+      <div class="radial-progress text-[#FF4240]" style="--value:70;" role="progressbar">87%</div>
+      <div class=" space-y-4">
+      <h2 class="text-xl font-medium">Prayer Facility</h2>
+      <p class="text-gray-500 text-base font-normal">Muslim travelers will need to do <br> some research on prayer facilities</p>
+    </div>
+    </div>
+    <div class=" space-y-4">
+      <div class="radial-progress text-[#49D293]" style="--value:70;" role="progressbar">95%</div>
+      <div class=" space-y-4">
+      <h2 class="text-xl font-medium">Experienced Coach</h2>
+      <p class="text-gray-500 text-base font-normal">Fulfilling the duties and <br>responsibilities of a hockey coach.</p>
+    </div>
+    </div>
+
+    <div class=" space-y-4">
+      <div class="radial-progress text-[#FFB546]" style="--value:70;" role="progressbar">90%</div>
+      <div class=" space-y-4">
+      <h2 class="text-xl font-medium">Senior Player</h2>
+      <p class="text-gray-500 text-base font-normal">Senior hockey refers to amateur or <br> semi-professional ice hockey competition. </p>
+    </div>
+    </div>
+
+    <div class=" space-y-4">
+      <div class="radial-progress text-[#4C8DF1]" style="--value:70;" role="progressbar">80%</div>
+      <div class=" space-y-4">
+      <h2 class="text-xl font-medium">Training Ground</h2>
+      <p class="text-gray-500 text-base font-normal">The main product of our company <br>ishockey diagnostic training centers. </p>
+    </div>
+    </div>
+
+    </div>
+    <hr class="border-dashed border-2 mt-20 text-gray-500">
+</section>
+
+<!-- Program Section -->
+
+<div class="mt-8">
+  <div class="text-center space-y-4">
+    <h2 class="text-3xl font-extrabold">Program Sections</h2>
+    <p class="text-base font-medium text-gray-500">Hockey training programs designed to help hockey players improve their game no matter their age, <br> skill level, or training experience.</p>
+  </div>
+  <hr class="border-dashed border-2 mt-8 text-gray-500">
+
+  <div class="mt-12">
+
+    <div class="lg:flex gap-x-6">
+  <div class="relative">
+    <div class="flex-1">
+      <img class="" src="./Images/2.png" alt="">
+    </div>
+
+    <div class="absolute left-6 bottom-10 text-white space-y-2 px-8 pt-6">
+      <h2 class="text-2xl font-extrabold">Junior Program</h2>
+      <p class="text-base font-medium">USA Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills.</p>
+      <button class="btn btn-active btn-secondary bg-[#FF4240]">Register Now!</button>
+    </div>
+  </div>
+
+
+    <div class="relative">
+      <div class="flex-1">
+        <img src="./Images/3.png" alt="">
+      </div>
+      <div class="absolute left-6 bottom-10 text-white space-y-2 px-8 pt-6">
+        <h2 class="text-2xl font-extrabold">Teenager Program</h2>
+        <p class="text-base font-medium">This 8 week program is designed for new and beginner level skaters ages 10+ that are interested in learning the game of hockey.</p>
+        <button class="btn btn-active btn-secondary bg-[#FF4240]">Register Now!</button>
+      </div>
+    </div>
+
+  </div>
+  <div class="relative">
+    <div class="mt-6">
+      <img src="./Images/4.png" alt="">
+    </div>
+    <div class="absolute left-6 bottom-10 text-white space-y-2 pr-8 pl-16 pt-6">
+      <h2 class="text-2xl font-extrabold">Professional Program</h2>
+      <p class="text-base font-medium">
+        The Hockey Skating 3 course is designed for professional skating coaches <br> who are teaching advanced level hockey players. </p>
+      <button class="btn btn-active btn-secondary bg-[#FF4240]">Register Now!</button>
+    </div>
+  </div>
+
+  </div>
+</div>
 
 </main>
 <footer>
